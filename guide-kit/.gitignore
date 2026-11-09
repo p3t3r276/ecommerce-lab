@@ -1,0 +1,3 @@
+# reference/ is its own git repo (one commit per session, tags wNN / sN-done)
+reference/
+kit.env

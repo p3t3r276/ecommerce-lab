@@ -1,0 +1,1019 @@
+{
+  "v3": {
+    "sections": {
+      "Mục tiêu và phạm vi v1": "plans/v3/01-muc-tieu-va-pham-vi-v1.md",
+      "Stack công nghệ": "plans/v3/02-stack-cong-nghe.md",
+      "Cấu trúc solution": "plans/v3/03-cau-truc-solution.md",
+      "Lệnh khởi tạo và chạy": "plans/v3/04-lenh-khoi-tao-va-chay.md",
+      "Domain model": "plans/v3/05-domain-model.md",
+      "Lộ trình theo phase": "plans/v3/06-lo-trinh-theo-phase.md",
+      "Scenario flash sale": "plans/v3/07-scenario-flash-sale.md",
+      "Data mẫu": "plans/v3/08-data-mau.md",
+      "Kiểm thử và bài tập mở rộng": "plans/v3/09-kiem-thu-va-bai-tap-mo-rong.md"
+    },
+    "steps": {
+      "S0": "plans/v3/steps/s0.md",
+      "S1": "plans/v3/steps/s1.md",
+      "S2": "plans/v3/steps/s2.md",
+      "S3": "plans/v3/steps/s3.md",
+      "S4": "plans/v3/steps/s4.md",
+      "S5": "plans/v3/steps/s5.md",
+      "S6": "plans/v3/steps/s6.md",
+      "S7": "plans/v3/steps/s7.md",
+      "S8": "plans/v3/steps/s8.md"
+    }
+  },
+  "detail": {
+    "intro": {
+      "Kiến trúc tổng": "plans/detail/00-0-kien-truc-tong.md",
+      "Cách dùng plan": "plans/detail/00-1-cach-dung-plan.md",
+      "Lịch tổng": "plans/detail/00-2-lich-tong.md"
+    },
+    "testing": {
+      "overview": "plans/detail/testing/00-overview.md",
+      "Cấu hình chung cho mọi project test": "plans/detail/testing/01-cau-hinh-chung-cho-moi-project-test.md",
+      "1. Unit test": "plans/detail/testing/02-1-unit-test.md",
+      "2. Integration test với DB thật": "plans/detail/testing/03-2-integration-test-voi-db-that.md",
+      "3. API test": "plans/detail/testing/04-3-api-test.md",
+      "4. Messaging test": "plans/detail/testing/05-4-messaging-test.md",
+      "5. Test luồng nhiều service": "plans/detail/testing/06-5-test-luong-nhieu-service.md",
+      "6. Test kiến trúc": "plans/detail/testing/07-6-test-kien-truc.md",
+      "7. Frontend test": "plans/detail/testing/08-7-frontend-test.md",
+      "8. Test tải với k6": "plans/detail/testing/09-8-test-tai-voi-k6.md",
+      "9. Diễn tập sự cố": "plans/detail/testing/10-9-dien-tap-su-co.md",
+      "Lệnh chạy test": "plans/detail/testing/11-lenh-chay-test.md"
+    },
+    "steps": {
+      "S0": {
+        "title": "Nền móng sớm",
+        "weeks_declared": [
+          1,
+          5
+        ],
+        "intro": "plans/detail/s0/_step.md",
+        "weeks": {
+          "w01": {
+            "dates": "02/11–08/11/2026",
+            "file": "plans/detail/s0/w01.md",
+            "sessions": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          "w02": {
+            "dates": "09/11–15/11/2026",
+            "file": "plans/detail/s0/w02.md",
+            "sessions": [
+              5,
+              6,
+              7,
+              8
+            ]
+          },
+          "w03": {
+            "dates": "16/11–22/11/2026",
+            "file": "plans/detail/s0/w03.md",
+            "sessions": [
+              9,
+              10,
+              11,
+              12
+            ]
+          },
+          "w04": {
+            "dates": "23/11–29/11/2026",
+            "file": "plans/detail/s0/w04.md",
+            "sessions": [
+              13,
+              14,
+              15,
+              16
+            ]
+          },
+          "w05": {
+            "dates": "30/11–06/12/2026",
+            "file": "plans/detail/s0/w05.md",
+            "sessions": [
+              17,
+              18,
+              19,
+              20
+            ]
+          }
+        }
+      },
+      "S1": {
+        "title": "Web catalog",
+        "weeks_declared": [
+          6,
+          12
+        ],
+        "intro": "plans/detail/s1/_step.md",
+        "weeks": {
+          "w06": {
+            "dates": "07/12–13/12/2026",
+            "file": "plans/detail/s1/w06.md",
+            "sessions": [
+              21,
+              22,
+              23,
+              24
+            ]
+          },
+          "w07": {
+            "dates": "14/12–20/12/2026",
+            "file": "plans/detail/s1/w07.md",
+            "sessions": [
+              25,
+              26,
+              27,
+              28
+            ]
+          },
+          "w08": {
+            "dates": "21/12–27/12/2026",
+            "file": "plans/detail/s1/w08.md",
+            "sessions": [
+              29,
+              30,
+              31,
+              32
+            ]
+          },
+          "w09": {
+            "dates": "28/12/2026–03/01/2027",
+            "file": "plans/detail/s1/w09.md",
+            "sessions": [
+              33,
+              34,
+              35,
+              36
+            ]
+          },
+          "w10": {
+            "dates": "04/01–10/01/2027",
+            "file": "plans/detail/s1/w10.md",
+            "sessions": [
+              37,
+              38,
+              39,
+              40
+            ]
+          },
+          "w11": {
+            "dates": "11/01–17/01/2027",
+            "file": "plans/detail/s1/w11.md",
+            "sessions": [
+              41,
+              42,
+              43,
+              44
+            ]
+          },
+          "w12": {
+            "dates": "18/01–24/01/2027",
+            "file": "plans/detail/s1/w12.md",
+            "sessions": [
+              45,
+              46,
+              47,
+              48
+            ]
+          }
+        }
+      },
+      "S2": {
+        "title": "Đặt hàng đồng bộ",
+        "weeks_declared": [
+          13,
+          26
+        ],
+        "intro": "plans/detail/s2/_step.md",
+        "weeks": {
+          "w13": {
+            "dates": "25/01–31/01/2027",
+            "file": "plans/detail/s2/w13.md",
+            "sessions": [
+              49,
+              50,
+              51,
+              52
+            ]
+          },
+          "w14": {
+            "dates": "08/02–14/02/2027",
+            "file": "plans/detail/s2/w14.md",
+            "sessions": [
+              53,
+              54,
+              55,
+              56
+            ]
+          },
+          "w15": {
+            "dates": "15/02–21/02/2027",
+            "file": "plans/detail/s2/w15.md",
+            "sessions": [
+              57,
+              58,
+              59,
+              60
+            ]
+          },
+          "w16": {
+            "dates": "22/02–28/02/2027",
+            "file": "plans/detail/s2/w16.md",
+            "sessions": [
+              61,
+              62,
+              63,
+              64
+            ]
+          },
+          "w17": {
+            "dates": "01/03–07/03/2027",
+            "file": "plans/detail/s2/w17.md",
+            "sessions": [
+              65,
+              66,
+              67,
+              68
+            ]
+          },
+          "w18": {
+            "dates": "08/03–14/03/2027",
+            "file": "plans/detail/s2/w18.md",
+            "sessions": [
+              69,
+              70,
+              71,
+              72
+            ]
+          },
+          "w19": {
+            "dates": "15/03–21/03/2027",
+            "file": "plans/detail/s2/w19.md",
+            "sessions": [
+              73,
+              74,
+              75,
+              76
+            ]
+          },
+          "w20": {
+            "dates": "22/03–28/03/2027",
+            "file": "plans/detail/s2/w20.md",
+            "sessions": [
+              77,
+              78,
+              79,
+              80
+            ]
+          },
+          "w21": {
+            "dates": "29/03–04/04/2027",
+            "file": "plans/detail/s2/w21.md",
+            "sessions": [
+              81,
+              82,
+              83,
+              84
+            ]
+          },
+          "w22": {
+            "dates": "05/04–11/04/2027",
+            "file": "plans/detail/s2/w22.md",
+            "sessions": [
+              85,
+              86,
+              87,
+              88
+            ]
+          },
+          "w23": {
+            "dates": "12/04–18/04/2027",
+            "file": "plans/detail/s2/w23.md",
+            "sessions": [
+              89,
+              90,
+              91,
+              92
+            ]
+          },
+          "w24": {
+            "dates": "19/04–25/04/2027",
+            "file": "plans/detail/s2/w24.md",
+            "sessions": [
+              93,
+              94,
+              95,
+              96
+            ]
+          },
+          "w25": {
+            "dates": "26/04–02/05/2027",
+            "file": "plans/detail/s2/w25.md",
+            "sessions": [
+              97,
+              98,
+              99,
+              100
+            ]
+          },
+          "w26": {
+            "dates": "03/05–09/05/2027",
+            "file": "plans/detail/s2/w26.md",
+            "sessions": [
+              101,
+              102,
+              103,
+              104
+            ]
+          }
+        }
+      },
+      "S3": {
+        "title": "Chuyển sang event-driven",
+        "weeks_declared": [
+          27,
+          39
+        ],
+        "intro": "plans/detail/s3/_step.md",
+        "weeks": {
+          "w27": {
+            "dates": "10/05–16/05/2027",
+            "file": "plans/detail/s3/w27.md",
+            "sessions": [
+              105,
+              106,
+              107,
+              108
+            ]
+          },
+          "w28": {
+            "dates": "17/05–23/05/2027",
+            "file": "plans/detail/s3/w28.md",
+            "sessions": [
+              109,
+              110,
+              111,
+              112
+            ]
+          },
+          "w29": {
+            "dates": "24/05–30/05/2027",
+            "file": "plans/detail/s3/w29.md",
+            "sessions": [
+              113,
+              114,
+              115,
+              116
+            ]
+          },
+          "w30": {
+            "dates": "31/05–06/06/2027",
+            "file": "plans/detail/s3/w30.md",
+            "sessions": [
+              117,
+              118,
+              119,
+              120
+            ]
+          },
+          "w31": {
+            "dates": "07/06–13/06/2027",
+            "file": "plans/detail/s3/w31.md",
+            "sessions": [
+              121,
+              122,
+              123,
+              124
+            ]
+          },
+          "w32": {
+            "dates": "14/06–20/06/2027",
+            "file": "plans/detail/s3/w32.md",
+            "sessions": [
+              125,
+              126,
+              127,
+              128
+            ]
+          },
+          "w33": {
+            "dates": "21/06–27/06/2027",
+            "file": "plans/detail/s3/w33.md",
+            "sessions": [
+              129,
+              130,
+              131,
+              132
+            ]
+          },
+          "w34": {
+            "dates": "28/06–04/07/2027",
+            "file": "plans/detail/s3/w34.md",
+            "sessions": [
+              133,
+              134,
+              135,
+              136
+            ]
+          },
+          "w35": {
+            "dates": "05/07–11/07/2027",
+            "file": "plans/detail/s3/w35.md",
+            "sessions": [
+              137,
+              138,
+              139,
+              140
+            ]
+          },
+          "w36": {
+            "dates": "12/07–18/07/2027",
+            "file": "plans/detail/s3/w36.md",
+            "sessions": [
+              141,
+              142,
+              143,
+              144
+            ]
+          },
+          "w37": {
+            "dates": "19/07–25/07/2027",
+            "file": "plans/detail/s3/w37.md",
+            "sessions": [
+              145,
+              146,
+              147,
+              148
+            ]
+          },
+          "w38": {
+            "dates": "26/07–01/08/2027",
+            "file": "plans/detail/s3/w38.md",
+            "sessions": [
+              149,
+              150,
+              151,
+              152
+            ]
+          },
+          "w39": {
+            "dates": "02/08–08/08/2027",
+            "file": "plans/detail/s3/w39.md",
+            "sessions": [
+              153,
+              154,
+              155,
+              156
+            ]
+          }
+        }
+      },
+      "S4": {
+        "title": "Discount",
+        "weeks_declared": [
+          40,
+          46
+        ],
+        "intro": "plans/detail/s4/_step.md",
+        "weeks": {
+          "w40": {
+            "dates": "09/08–15/08/2027",
+            "file": "plans/detail/s4/w40.md",
+            "sessions": [
+              157,
+              158,
+              159,
+              160
+            ]
+          },
+          "w41": {
+            "dates": "16/08–22/08/2027",
+            "file": "plans/detail/s4/w41.md",
+            "sessions": [
+              161,
+              162,
+              163,
+              164
+            ]
+          },
+          "w42": {
+            "dates": "23/08–29/08/2027",
+            "file": "plans/detail/s4/w42.md",
+            "sessions": [
+              165,
+              166,
+              167,
+              168
+            ]
+          },
+          "w43": {
+            "dates": "30/08–05/09/2027",
+            "file": "plans/detail/s4/w43.md",
+            "sessions": [
+              169,
+              170,
+              171,
+              172
+            ]
+          },
+          "w44": {
+            "dates": "06/09–12/09/2027",
+            "file": "plans/detail/s4/w44.md",
+            "sessions": [
+              173,
+              174,
+              175,
+              176
+            ]
+          },
+          "w45": {
+            "dates": "13/09–19/09/2027",
+            "file": "plans/detail/s4/w45.md",
+            "sessions": [
+              177,
+              178,
+              179,
+              180
+            ]
+          },
+          "w46": {
+            "dates": "20/09–26/09/2027",
+            "file": "plans/detail/s4/w46.md",
+            "sessions": [
+              181,
+              182,
+              183,
+              184
+            ]
+          }
+        }
+      },
+      "S5": {
+        "title": "Read model MongoDB",
+        "weeks_declared": [
+          47,
+          53
+        ],
+        "intro": "plans/detail/s5/_step.md",
+        "weeks": {
+          "w47": {
+            "dates": "27/09–03/10/2027",
+            "file": "plans/detail/s5/w47.md",
+            "sessions": [
+              185,
+              186,
+              187,
+              188
+            ]
+          },
+          "w48": {
+            "dates": "04/10–10/10/2027",
+            "file": "plans/detail/s5/w48.md",
+            "sessions": [
+              189,
+              190,
+              191,
+              192
+            ]
+          },
+          "w49": {
+            "dates": "11/10–17/10/2027",
+            "file": "plans/detail/s5/w49.md",
+            "sessions": [
+              193,
+              194,
+              195,
+              196
+            ]
+          },
+          "w50": {
+            "dates": "18/10–24/10/2027",
+            "file": "plans/detail/s5/w50.md",
+            "sessions": [
+              197,
+              198,
+              199,
+              200
+            ]
+          },
+          "w51": {
+            "dates": "25/10–31/10/2027",
+            "file": "plans/detail/s5/w51.md",
+            "sessions": [
+              201,
+              202,
+              203,
+              204
+            ]
+          },
+          "w52": {
+            "dates": "01/11–07/11/2027",
+            "file": "plans/detail/s5/w52.md",
+            "sessions": [
+              205,
+              206,
+              207,
+              208
+            ]
+          },
+          "w53": {
+            "dates": "08/11–14/11/2027",
+            "file": "plans/detail/s5/w53.md",
+            "sessions": [
+              209,
+              210,
+              211,
+              212
+            ]
+          }
+        }
+      },
+      "S6": {
+        "title": "Flash sale",
+        "weeks_declared": [
+          54,
+          68
+        ],
+        "intro": "plans/detail/s6/_step.md",
+        "weeks": {
+          "w54": {
+            "dates": "15/11–21/11/2027",
+            "file": "plans/detail/s6/w54.md",
+            "sessions": [
+              213,
+              214,
+              215,
+              216
+            ]
+          },
+          "w55": {
+            "dates": "22/11–28/11/2027",
+            "file": "plans/detail/s6/w55.md",
+            "sessions": [
+              217,
+              218,
+              219,
+              220
+            ]
+          },
+          "w56": {
+            "dates": "29/11–05/12/2027",
+            "file": "plans/detail/s6/w56.md",
+            "sessions": [
+              221,
+              222,
+              223,
+              224
+            ]
+          },
+          "w57": {
+            "dates": "06/12–12/12/2027",
+            "file": "plans/detail/s6/w57.md",
+            "sessions": [
+              225,
+              226,
+              227,
+              228
+            ]
+          },
+          "w58": {
+            "dates": "13/12–19/12/2027",
+            "file": "plans/detail/s6/w58.md",
+            "sessions": [
+              229,
+              230,
+              231,
+              232
+            ]
+          },
+          "w59": {
+            "dates": "20/12–26/12/2027",
+            "file": "plans/detail/s6/w59.md",
+            "sessions": [
+              233,
+              234,
+              235,
+              236
+            ]
+          },
+          "w60": {
+            "dates": "27/12/2027–02/01/2028",
+            "file": "plans/detail/s6/w60.md",
+            "sessions": [
+              237,
+              238,
+              239,
+              240
+            ]
+          },
+          "w61": {
+            "dates": "03/01–09/01/2028",
+            "file": "plans/detail/s6/w61.md",
+            "sessions": [
+              241,
+              242,
+              243,
+              244
+            ]
+          },
+          "w62": {
+            "dates": "10/01–16/01/2028",
+            "file": "plans/detail/s6/w62.md",
+            "sessions": [
+              245,
+              246,
+              247,
+              248
+            ]
+          },
+          "w63": {
+            "dates": "17/01–23/01/2028",
+            "file": "plans/detail/s6/w63.md",
+            "sessions": [
+              249,
+              250,
+              251,
+              252
+            ]
+          },
+          "w64": {
+            "dates": "31/01–06/02/2028",
+            "file": "plans/detail/s6/w64.md",
+            "sessions": [
+              253,
+              254,
+              255,
+              256
+            ]
+          },
+          "w65": {
+            "dates": "07/02–13/02/2028",
+            "file": "plans/detail/s6/w65.md",
+            "sessions": [
+              257,
+              258,
+              259,
+              260
+            ]
+          },
+          "w66": {
+            "dates": "14/02–20/02/2028",
+            "file": "plans/detail/s6/w66.md",
+            "sessions": [
+              261,
+              262,
+              263,
+              264
+            ]
+          },
+          "w67": {
+            "dates": "21/02–27/02/2028",
+            "file": "plans/detail/s6/w67.md",
+            "sessions": [
+              265,
+              266,
+              267,
+              268
+            ]
+          },
+          "w68": {
+            "dates": "28/02–05/03/2028",
+            "file": "plans/detail/s6/w68.md",
+            "sessions": [
+              269,
+              270,
+              271,
+              272
+            ]
+          }
+        }
+      },
+      "S7": {
+        "title": "POS",
+        "weeks_declared": [
+          69,
+          81
+        ],
+        "intro": "plans/detail/s7/_step.md",
+        "weeks": {
+          "w69": {
+            "dates": "06/03–12/03/2028",
+            "file": "plans/detail/s7/w69.md",
+            "sessions": [
+              273,
+              274,
+              275,
+              276
+            ]
+          },
+          "w70": {
+            "dates": "13/03–19/03/2028",
+            "file": "plans/detail/s7/w70.md",
+            "sessions": [
+              277,
+              278,
+              279,
+              280
+            ]
+          },
+          "w71": {
+            "dates": "20/03–26/03/2028",
+            "file": "plans/detail/s7/w71.md",
+            "sessions": [
+              281,
+              282,
+              283,
+              284
+            ]
+          },
+          "w72": {
+            "dates": "27/03–02/04/2028",
+            "file": "plans/detail/s7/w72.md",
+            "sessions": [
+              285,
+              286,
+              287,
+              288
+            ]
+          },
+          "w73": {
+            "dates": "03/04–09/04/2028",
+            "file": "plans/detail/s7/w73.md",
+            "sessions": [
+              289,
+              290,
+              291,
+              292
+            ]
+          },
+          "w74": {
+            "dates": "10/04–16/04/2028",
+            "file": "plans/detail/s7/w74.md",
+            "sessions": [
+              293,
+              294,
+              295,
+              296
+            ]
+          },
+          "w75": {
+            "dates": "17/04–23/04/2028",
+            "file": "plans/detail/s7/w75.md",
+            "sessions": [
+              297,
+              298,
+              299,
+              300
+            ]
+          },
+          "w76": {
+            "dates": "24/04–30/04/2028",
+            "file": "plans/detail/s7/w76.md",
+            "sessions": [
+              301,
+              302,
+              303,
+              304
+            ]
+          },
+          "w77": {
+            "dates": "01/05–07/05/2028",
+            "file": "plans/detail/s7/w77.md",
+            "sessions": [
+              305,
+              306,
+              307,
+              308
+            ]
+          },
+          "w78": {
+            "dates": "08/05–14/05/2028",
+            "file": "plans/detail/s7/w78.md",
+            "sessions": [
+              309,
+              310,
+              311,
+              312
+            ]
+          },
+          "w79": {
+            "dates": "15/05–21/05/2028",
+            "file": "plans/detail/s7/w79.md",
+            "sessions": [
+              313,
+              314,
+              315,
+              316
+            ]
+          },
+          "w80": {
+            "dates": "22/05–28/05/2028",
+            "file": "plans/detail/s7/w80.md",
+            "sessions": [
+              317,
+              318,
+              319,
+              320
+            ]
+          },
+          "w81": {
+            "dates": "29/05–04/06/2028",
+            "file": "plans/detail/s7/w81.md",
+            "sessions": [
+              321,
+              322,
+              323,
+              324
+            ]
+          }
+        }
+      },
+      "S8": {
+        "title": "Hardening",
+        "weeks_declared": [
+          82,
+          88
+        ],
+        "intro": "plans/detail/s8/_step.md",
+        "weeks": {
+          "w82": {
+            "dates": "05/06–11/06/2028",
+            "file": "plans/detail/s8/w82.md",
+            "sessions": [
+              325,
+              326,
+              327,
+              328
+            ]
+          },
+          "w83": {
+            "dates": "12/06–18/06/2028",
+            "file": "plans/detail/s8/w83.md",
+            "sessions": [
+              329,
+              330,
+              331,
+              332
+            ]
+          },
+          "w84": {
+            "dates": "19/06–25/06/2028",
+            "file": "plans/detail/s8/w84.md",
+            "sessions": [
+              333,
+              334,
+              335,
+              336
+            ]
+          },
+          "w85": {
+            "dates": "26/06–02/07/2028",
+            "file": "plans/detail/s8/w85.md",
+            "sessions": [
+              337,
+              338,
+              339,
+              340
+            ]
+          },
+          "w86": {
+            "dates": "03/07–09/07/2028",
+            "file": "plans/detail/s8/w86.md",
+            "sessions": [
+              341,
+              342,
+              343,
+              344
+            ]
+          },
+          "w87": {
+            "dates": "10/07–16/07/2028",
+            "file": "plans/detail/s8/w87.md",
+            "sessions": [
+              345,
+              346,
+              347,
+              348
+            ]
+          },
+          "w88": {
+            "dates": "17/07–23/07/2028",
+            "file": "plans/detail/s8/w88.md",
+            "sessions": [
+              349,
+              350,
+              351,
+              352
+            ]
+          }
+        }
+      }
+    }
+  }
+}
