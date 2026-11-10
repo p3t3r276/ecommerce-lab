@@ -1,0 +1,12 @@
+# S0 shared files: must be identical in the user's repo (globs relative to the reference root)
+global.json
+Directory.Build.props
+Directory.Packages.props
+tests/Directory.Build.props
+docker/keycloak/shoplab-realm.json
+tools/get-token.sh
+tools/scaffold-angular-app.sh
+src/BuildingBlocks/Auth/Roles.cs
+src/BuildingBlocks/Auth/AuthPolicies.cs
+tests/Catalog.Tests/SmokeTests.cs
+http/ping.http

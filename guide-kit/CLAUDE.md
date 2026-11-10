@@ -44,6 +44,7 @@ Agents stay **at most one step ahead**: `/design-step SN` requires the reference
 - `reference/` is the root of a `shoplab` repo, with its own git history. Paths in the plans (`src/...`, `tests/...`) are relative to it.
 - **One commit per session**, message `bNNN: <short task>` (NNN = session number with 3 digits). A session without code changes still gets `git commit --allow-empty`.
 - Tag `wNN` after the last session of each week; tag `sN-done` when the step gate passes.
+- Branches follow the plan, with `master` as the default branch (D-010, D-012): each step is built on `step/sN-<name>`. In the gate session, only if the gate passes: `git checkout master && git merge --no-ff step/sN-<name>`, tag `sN-done` on the merge commit, then `git checkout -b step/s(N+1)-<name>`. If the gate fails: no merge, no tag. `master` therefore only holds steps that passed their gate.
 - Never rewrite history that is already tagged. A fix after a tag is a new commit `bNNN-fix: ...` and is mentioned in the build log.
 
 ## Session kinds (assigned in design/sN.md)
