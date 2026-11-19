@@ -58,6 +58,7 @@ Agents stay **at most one step ahead**: `/design-step SN` requires the reference
 - Never claim a command was run or a test passed unless it was. Every session in `build-log/wNN.md` states its verification level: `test`, `build`, `run`, `manual`, or `unverified` with a reason.
 - Snippets in guides are copied from the reference commit, never rewritten from memory. Trimming with `// ...` is allowed.
 - "Try changing" experiments in guides are marked either **đã chạy thử** (the builder ran it, result in the build log) or **dự đoán** (expected, not run).
+- Library docs from the Context7 MCP (`.mcp.json`) help pick the right API for the pinned version, but they are never evidence that code works and never a source for guide snippets.
 - If something needed is not in `decisions.md`, `design/sN.md` or the plans, do not invent it: stop and report it (builder), or add it to the step's open questions (designer).
 
 ## Safety

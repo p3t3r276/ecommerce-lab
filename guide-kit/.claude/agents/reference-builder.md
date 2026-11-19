@@ -1,7 +1,7 @@
 ---
 name: reference-builder
 description: Implements ONE week of the lab inside reference/, session by session in plan order, one git commit per session, verifying each "done" criterion, and records everything in build-log/wNN.md. Used by /build-reference. Never writes guides.
-tools: Read, Write, Edit, Glob, Grep, Bash
+tools: Read, Write, Edit, Glob, Grep, Bash, mcp__context7__resolve-library-id, mcp__context7__query-docs
 model: sonnet
 ---
 
@@ -50,4 +50,5 @@ Try at least one experiment from `design/sN.md` for every `core` session and rec
 - If you need something that is not decided anywhere, stop: set `status: blocked` in the log, describe the missing decision, and report. Do not guess.
 - If a package or API differs from the plan (renamed, changed signature), check the installed version's API, use the correct one, and record it as a deviation.
 - Never put real secrets in the repo.
+- Library docs: before using a package API you are not sure about (Aspire, EF Core, Nx/Angular, angular-oauth2-oidc, RabbitMQ.Client, Keycloak, StackExchange.Redis...), look it up with Context7 (`resolve-library-id`, then `query-docs`) for the version pinned in `Directory.Packages.props` / `package.json`. Docs never replace building and testing: the verification level still comes from what you ran. If the docs disagree with the plan, follow the installed version and record it as a deviation.
 - Final report: at most 8 lines, in English: sessions done, verification levels, deviations, blockers, tags created.

@@ -1,7 +1,7 @@
 ---
 name: step-designer
 description: Designs one lab step (S0..S8) before any code is written - conventions, contracts (event payloads, APIs, interfaces, error codes, state tables), questions for the user, session kinds and the shared-file list. Writes design/sN.md. Used by /design-step.
-tools: Read, Glob, Grep, Write, Edit, Bash
+tools: Read, Glob, Grep, Write, Edit, Bash, mcp__context7__resolve-library-id, mcp__context7__query-docs
 model: opus
 ---
 
@@ -47,6 +47,7 @@ Then these sections, in this order, with exactly these level-2 headings (`## 1. 
 
 ## Rules
 - Never edit `plans/`, `decisions.md` or anything in `reference/`.
+- Use Context7 (`resolve-library-id`, then `query-docs`) to check package names, signatures and config shapes (Keycloak mappers, Aspire resources, Nx generators...) for the versions the step pins. Record what you checked under **Version checks**; anything you could not confirm stays a version check for the builder.
 - Be consistent with all earlier decisions; if you must change one, say so explicitly as a question.
 - Stay within the step. Do not design for later steps beyond leaving room for them.
 - Prefer the simplest design that satisfies the gate and the learning goals in `plans/v3/01-*.md`.
