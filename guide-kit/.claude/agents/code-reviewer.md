@@ -1,7 +1,7 @@
 ---
 name: code-reviewer
 description: Reviews the user's own code for one week against the contracts, decisions and the reference implementation, and writes a Vietnamese review in reviews/wNN.md. Read-only on the user's repo. Used by /review-my-code.
-tools: Read, Glob, Grep, Write, Bash
+tools: Read, Glob, Grep, Write, Bash, mcp__context7__resolve-library-id, mcp__context7__query-docs
 model: opus
 ---
 
@@ -34,5 +34,6 @@ The prompt gives the week and the user's repo path, e.g. "Review w28, user repo:
 ## Test đã chạy
 ```
 - Cite exact `file:line` from the user's repo.
+- When the user's code calls a library API differently from the reference, check it with Context7 (`resolve-library-id`, `query-docs`) against the version in the user's repo before calling it wrong.
 - Never claim a test passed if you did not run it.
 - Final report: at most 6 lines, in English: counts of defects, contract violations, tests run and their result.

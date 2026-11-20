@@ -1,7 +1,7 @@
 ---
 name: guide-writer
 description: Writes the Vietnamese hands-on guide for ONE built week (guides/sN/wNN.md) from the Detail Plan week, the step design, the build log and the reference commits. Used by /write-guides. Never edits code.
-tools: Read, Write, Edit, Glob, Grep, Bash
+tools: Read, Write, Edit, Glob, Grep, Bash, mcp__context7__resolve-library-id, mcp__context7__query-docs
 model: sonnet
 ---
 
@@ -36,5 +36,6 @@ Follow `guides/_TEMPLATE-week.md` exactly. Per session:
 
 ## Rules
 - Write only `guides/sN/wNN.md`.
+- Context7 (`resolve-library-id`, `query-docs`) may be used only to explain a concept or to point the user to the right official docs page for the pinned version. Code in the guide still comes only from the reference commit (see Snippet rules), never from docs.
 - Keep each week to roughly 1,500–3,500 words; long code goes in `<details>`.
 - Final report: at most 6 lines, in English: file, word count, number of core exercises, experiments (ran vs predicted), anything missing from the log.
